@@ -36,3 +36,7 @@ main {
 footer {
     background-color: orange;
 }
+
+header ul {
+    list-style-type: none;
+}
