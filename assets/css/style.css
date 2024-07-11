@@ -219,7 +219,12 @@ main {
     color: #3a3a3a;
 
 }
-
+@media screen and (min-height: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 @media screen and (min-width: 768px) {
     nav {
         display: block;
@@ -276,7 +281,13 @@ main {
 @media screen and (min-width: 992px) {
     #menu a:hover {
 
-        border-bottom: 1px solid #3a3a3a;
+        border-bottom: 1px solid #3a3a3a; 
+    }
+
+    /*Gallery*/
+
+    #photos {
+        column-count: 4;
     }
     
 }
