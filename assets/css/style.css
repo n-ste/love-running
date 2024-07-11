@@ -90,6 +90,7 @@ main {
     /* Make main body push the footer down to take up any surplus space */
     flex: 1 0 auto;
     margin-top: 47px;    
+    border: 2px solid black;
 }
 
     hr {
@@ -122,6 +123,8 @@ main {
         max-width: 300px;
         max-height: 300px;
     }
+
+
 
     #benefits-image {
         display: flex;
@@ -158,8 +161,12 @@ main {
     }
 
 
+
+        
+    
     #benefits-physical > p, #benefits-mental > p {
         padding: 0 20px;
+      
     }
 
     
@@ -223,9 +230,11 @@ main {
     }
     #benefits-mental > div {
         text-align: end;
-        align-self: flex-end;
     }
-
+    #benefits-mental {
+        display: flex;
+        justify-content: flex-end;
+    }
 
     
     #benefits-physical > div, #benefits-mental > div {
@@ -240,7 +249,7 @@ main {
     }
     
 }
-@media screen and (mid-width: 1200px) {
+@media screen and (min-width: 1200px) {
     #benefits {
     display: flex;
     flex-direction: row;
