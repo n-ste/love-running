@@ -202,6 +202,60 @@ main {
         line-height: 0;
     }
 
+    #signup {
+        background-image: url("../images/signup-image.webp") no-repeat center/cover;
+        background-size: cover;
+        background-position: 75%;
+        padding: 20px 10% 0 10%;
+        flex-grow: 1;
+    }
+
+    #signup h2 {
+        color: #fafafa;
+    }
+    .join-button {
+        border-radius: 2px;
+        margin-top: 20px;
+        padding: 15px 32px;
+        background-color: #454b1b;
+        color: #fafafa;
+        font-size: 100%;
+       
+    }
+    .radio-buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .text-input {
+        background-color: transparent;
+        color: #fafafa;
+        border: 1px solid #fafafa;
+        width: 100%;
+        border-radius: 2px;
+        height: 25px;
+        margin: 5px 0 20px 0;
+        padding: 0 5px;
+    }
+    #signup-form {
+        color: #ffffff;
+        background-color: rgba(60, 60, 60, 0.6);
+        padding: 30px;
+        
+    }
+
+    #signup-form>h2 {
+        color: #fafafa;
+        margin-bottom: 20px;
+    }
+    
+    main {
+        
+        flex: 1 0 auto;
+        margin-top: 47px;
+        display: flex;
+        flex-direction: column;
+    }
 /* Footer */
 #social-networks {
     text-align: center;
@@ -277,7 +331,12 @@ main {
         width: 75%;
 
     }
-}
+
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+}   
 @media screen and (min-width: 992px) {
     #menu a:hover {
 
