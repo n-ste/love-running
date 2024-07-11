@@ -22,7 +22,10 @@ h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
+}
 
+.hidden-heading {
+    display: none;
 }
 /* Header */
 header {
@@ -100,7 +103,6 @@ main {
 
     div {
         line-height: 20px;
-        margin-bottom: 20px;
     }
     /* Hero */
 
@@ -169,7 +171,27 @@ main {
       
     }
 
+    /* Meet Up Times */
+    #times {
+        background: url("../images/dublin-city.webp") no-repeat top center/cover;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #times div {
+        color: #fafafa;
+        background-color: rgba(0, 0, 0, .6);
+        padding: 15px;
+        text-align: center;
+        flex-basis: 200px;
+        flex-grow: 1;
+        border: 0.25px solid #fafafa;
+    }
     
+    #times h3 {
+        color: #fafafa;
+
+    }
 
 /* Footer */
 #social-networks {
