@@ -220,7 +220,10 @@ main {
         background-color: #454b1b;
         color: #fafafa;
         font-size: 100%;
-       
+        display: grid;
+        flex-direction: column;
+        margin: 10%;
+        position:absolute;
     }
     .radio-buttons {
         display: flex;
@@ -236,6 +239,7 @@ main {
         height: 25px;
         margin: 5px 0 20px 0;
         padding: 0 5px;
+        
     }
     #signup-form {
         color: #ffffff;
